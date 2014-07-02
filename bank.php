@@ -1,8 +1,11 @@
 
-<?php
+<!--    <?php
+phpinfo();  #get info
+
 error_reporting(E_ALL);       # Report Errors, Warnings, and Notices
 ini_set('display_errors', 1); # Display errors on page (instead of a log file)
 ?>
+ -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -38,6 +41,8 @@ ini_set('display_errors', 1); # Display errors on page (instead of a log file)
     <p>
      You have $<?php echo $total; ?> in your piggy bank.
     </p>
+
+<img src='http://making-the-internet.s3.amazonaws.com/php-goal-met.png' alt='Goal met'>
 
 </body>
 </html>
